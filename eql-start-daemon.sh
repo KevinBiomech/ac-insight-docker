@@ -1,12 +1,12 @@
 #!/bin/bash
 
-AC_NAME="OOT"
-AC_SUPPLY=216000000
+AC_NAME="EQL"
+AC_SUPPLY=500000000
 SAPLING_ACTIVATION_HEIGHT=5000000
 
 USER=my_rpcuser
 PASSWD=my_rpcpassword
-SEEDIP=78.47.196.146
+SEEDIP=46.101.124.153
 
 docker run -d --rm --name $AC_NAME -ti \
   --net host \
